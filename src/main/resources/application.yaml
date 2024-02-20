@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: todo-list-app
+  data:
+    mongodb:
+      uri: mondodb://127.0.0.1:21017/todolist
+server:
+  port: ${PORT:9090}
